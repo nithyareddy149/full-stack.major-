@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Organic Choice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+      *{
+        padding: 0;
+	      margin: 0;
+	      box-sizing: border-box;
+      }
+      html{
+        scroll-behavior: smooth;
+      }
+      .nav-link{
+        color: rgb(0, 204, 0);
+      }
+      .nav-link:hover{
+        color: crimson;
+	      transition: 0.3s;
+      }
+      .nav-item{
+	      color: rgb(147, 255, 51);
+	      font-weight: 600;
+	      padding-left: 40px;
+      }
+      .btn0{
+        height: 53px;
+        width: 130px;
+        outline: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        transition: all 0.4s;
+        background-color: rgb(255, 51, 129);
+      }
+      .btn0:hover{
+        background: rgb(0,0,0);
+        transition: all 0.4s;
+      }
+      .btn1{
+        height: 53px;
+        width: 130px;
+        background-color: transparent;
+        outline: none;
+        border: 2px solid rgb(255, 51, 129);
+        color: rgb(255, 51, 129);
+        transition: all 0.4s;
+        
+      }
+      .btn1:hover{
+        background-color: rgb(0,0,0);
+        transition: all 0.4s;
+        color: white;
+        border: none;
+        outline: none;
+      }
+      /*================================ main section =========================*/
+
+      .main{
+        background: url(https://www.healthkart.com/connect/wp-content/uploads/2016/07/banner-26.jpg);
+        background-size: cover;
+        min-height: 95vh;
+        width: 100%;
+      }
+      .main h1{
+        font-size: 4rem;
+        font-weight: 800;
+        color: whitesmoke;
+
+      }
+      .btn2{
+        height: 70px;
+        width: 25%;
+        background-color: rgb(51, 149, 255);
+        color: white;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: all 0.4s;
+      }
+      .btn2:hover{
+        background-color: rgb(0, 0, 0);
+        transition: all 0.4s;
+      }
+
+      /*------------------- about us -----------------*/
+
+      #about{
+          display: flex;
+          flex-direction: column;
+          box-sizing: border-box;
+          padding: 20px;
+          margin-bottom: 50px;
+      }
+      .container-fluid h1{
+        font-weight: 600;
+        font-size: 3rem;
+        color: green;
+      }
+      #pic{
+          display: flex;
+      }
+      #pic img{
+          width: 575px;
+          height: 400px;
+      }
+      #abt{
+          display: flex;
+          flex-direction: column;
+          text-align: justify;
+          padding: 10px;
+      }
+      #abt h2{
+          font-size: 2rem;
+          margin-bottom: 20px;
+          text-align: center;
+      }
+      #abt p{
+        font-size: 1.5rem;
+        font-family: geneva;
+      }
+
+      /*------------------ references -----------*/
+      #refer{
+          display: flex;
+          flex-direction: column;
+          background-color:white;
+          color:black;
+          align-items: center;
+          padding: 20px;
+
+      }
+      .gallery{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          box-sizing: border-box;
+      }
+      .gallery img{
+          width: 300px;
+          height: 150px;
+          margin: 10px;
+          border: solid wheat;
+      }
+      .headings{
+        font-size: 3rem;
+        font-weight: 500;
+      }
+
+      /*----------------------customer speaks ----------------------*/
+      #cust{
+          display: flex;
+          flex-direction: column;
+          background-color:white;
+          color:black;
+          align-items: center;
+          padding: 20px;
+
+      }
+      .headings{
+        font-size: 3rem;
+        font-weight: 500;
+      }
+
+      /*---------------------- contact us -------------------------*/
+      #contact{
+          display: flex;
+          flex-direction: column;
+          box-sizing: border-box;
+          background-color: rgb(160,160,160);
+          color: white;
+          padding: 20px;
+      }
+      .form{
+          display: flex;
+          flex-direction: column;
+          box-sizing: border-box;
+          align-items: center;
+          margin: 20px 0px;
+
+      }
+      .input{
+          padding: 12px;
+          margin: 15px;
+          width: 30%;
+          border: none;
+          outline: none;
+      }
+      #msg{
+          width: 20%;
+          padding: 10px;
+          margin: 15px;
+          border: none;
+          outline: none;
+
+      }
+      #send{
+          padding: 10px;
+          width: 10%;
+          margin: 40px;
+          border: none;
+          outline: none;
+
+      }
+      #send:hover{
+          cursor: pointer;
+          box-shadow: 0 0 10px white;
+      }
+      /*---------------- footer--------------------*/
+      .footer-basic {
+        padding:40px 0;
+        background-color:#ffffff;
+        color:#4b4c4d;
+      }
+      .footer-basic ul {
+        padding:0;
+        list-style:none;
+        text-align:center;
+        font-size:18px;
+        line-height:1.6;
+        margin-bottom:0;
+      }
+      .footer-basic li {
+        padding:0 10px;
+      }
+      .footer-basic ul a {
+        color:inherit;
+        text-decoration:none;
+        opacity:0.8;
+      }
+      .footer-basic ul a:hover {
+        opacity:1;
+      }
+      .footer-basic .social {
+        text-align:center;
+        padding-bottom:25px;
+      }
+      .footer-basic .social > a {
+        font-size:24px;
+        width:40px;
+        height:40px;
+        line-height:40px;
+        display:inline-block;
+        text-align:center;
+        border-radius:50%;
+        border:1px solid #ccc;
+        margin:0 8px;
+        color:inherit;
+        opacity:0.75;
+      }
+      .footer-basic .social > a:hover {
+        opacity:0.9;
+      }
+      .footer-basic .copyright {
+        margin-top:15px;
+        text-align:center;
+        font-size:13px;
+        color:#aaa;
+        margin-bottom:0;
+      }
+    </style>
+  </head>
+
+
+  <body>
+    <a href="/">
+    <nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="https://www.organicchoice.co.za/wp-content/uploads/2020/08/Organic.jpg" width="120" height="120" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        <li class="nav-item">
+          <a class="nav-link"href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about py-5">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#refer">References</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#cust" class="fill">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        <li>
+          <button class="btn0" style="border-radius: 12px;"><a href="signup" style="color: inherit;">Register</a></button>
+        </li>&ensp;&ensp;&ensp;&ensp;
+        <li>
+          <button class="btn1 mx-4" style="border-radius: 12px;"><a href="signin" style="color: inherit;">Login</a></button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!--------------------- main section------------>
+  <section class="main py-5">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-lg-7">
+          <h1>Fresh and Organic!<br>just the way you like.</h1><br>
+
+          <button class="btn2 mt-5"><a href="https://www.helpguide.org/articles/healthy-eating/organic-foods.htm" style="color: inherit;">Know Us!</a></button>
+        </div>
+      </div>  
+    </div>
+  </section>
+  <!-------------------------about us---------------->
+  <section id="about py-5">
+    <div class="container-fluid py-5">
+      <h1>About Us</h1><br>
+      <div id="pic">
+            <img src="https://cf.ltkcdn.net/garden/images/orig/311297-2121x1414-organic-vegetables.jpg" alt="a pic of old man with vegetable">
+            <div id="abt">
+                <h2>From Nature To Your Table</h2><br>
+                <p>A website where you get to know the complete organic food information including online organic food shopping.</p>
+                <p>Know how organic agriculture is the healthier choice for us and our planet. Organic farmers rely on natural processes, biodiversity, and cycles adapted to local conditions rather than the use of synthetic inputs like chemical fertilizers, pesticides, and GMOs... Thereby helping regenerate the health of soils, ecosystems, and people.</p>
+            </div>
+      </div>
+    </div>
+  </section>
+  <!--------------------------- references ------------------------------------>
+  <section id="refer">
+        <h1 class="headings">References</h1><br>
+        <div class="gallery">
+            <a href="https://www.organictattva.com/"><img src="https://www.justgotochef.com/img/1559573071-Organic%20Tattva-Biryani%20Masala-Logo.jpg" alt="organic tattva logo"></a>
+            <a href="https://www.consciousfood.com/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDrEnw3T1eu6RPXKAf-z17DvGFqlLDwS6fPlNbNRR4kSSJEvHw52sMO8jBgm6-l76lbi4&usqp=CAU" alt="conscious food logo"></a>
+            <a href="https://www.isayorganic.com/"><img src="https://yt3.ggpht.com/97FdwCPI5zEhlypPFiyUQS7iIS32Hl1oy8jjfZ3DB7Nx2gQtvBWEZ86LNmn2wTRykXydOLwNdw=s900-c-k-c0x00ffffff-no-rj" alt="isayorganic logo"></a>
+            <a href="https://www.amazon.in/organic-store/b?ie=UTF8&node=5571689031"><img src="https://m.media-amazon.com/images/G/31/social_share/amazon_logo._CB633266945_.png" alt="amazon logo"></a>
+            <a href="https://www.ayudaorganics.com/"><img src="https://www.ayudaorganics.com/pub/media/wysiwyg/aboutayuda.png" alt="ayudaorganics logo"></a>
+            <a href="https://www.orgpick.com/"><img src="https://pbs.twimg.com/profile_images/1062250832937144320/FtpbLaoo_400x400.jpg" alt="orgpick logo"></a>
+            <a href="https://satvyk.com/"><img src="https://m.media-amazon.com/images/I/41UQjO-nucL.jpg" alt="satvyk logo"></a>
+            <a href="https://orgasatva.com/"><img src="data:image/png;base64,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" alt=""></a>
+            <a href="https://www.nimbarkfoods.com/"><img src="https://www.vikaslifecarelimited.com/wp-content/uploads/2022/03/nimbark_logo.png" alt="nimbark logo"></a>
+            <a href="https://www.theorganicworld.com/"><img src="https://mesmara.com/wp-content/uploads/2022/07/Organic-World-Logo.png" alt="theorganicworld logo"></a>
+            <a href="https://naturelandorganics.com/"><img src="https://media-exp1.licdn.com/dms/image/C4E0BAQHE3PQM-OgaJw/company-logo_200_200/0/1623743239921?e=2147483647&v=beta&t=pCigLCeWTGJ21J-5y9kF30LwnK0AccEceB_bCGQdooc" alt="naturelandorganics logo"></a>
+            <a href="https://healthybuddha.in/"><img src="https://2.bp.blogspot.com/-ex-iYI_Dwtw/Vfvmazk91lI/AAAAAAAABko/qEzpSkBYguo/s1600-r/HBLogo.jpg" alt="healthybuddha logo"></a>
+        </div>
+  </section>
+<!--------------------------------- customer speaks --------------------------------->
+  <section id="cust">
+    <h1 class="headings">Reviews</h1><br>
+    <div class="container">
+    <div class="row gy-4">
+        <div class="col-sm">
+            <div class="card h-100">
+                <img src="https://media.istockphoto.com/photos/one-businesswoman-studio-portrait-looking-at-the-camera-picture-id1317804584?b=1&k=20&m=1317804584&s=170667a&w=0&h=iRoieYlqr45l2lvhzFWf05soey699-qg_dCQwO710ug=" class="card-img-top" alt="girl">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Emma-</h5>
+                    <p class="card-text">"Perfect website for the organic products.It is completely trust worthy.Just a word of thanks to your company for the continued great service."
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card h-100">
+                <img src="https://media.istockphoto.com/photos/good-looking-male-business-professional-in-studio-picture-id1201437847?b=1&k=20&m=1201437847&s=170667a&w=0&h=53MwN6gdXfWc74fzM6oU2W7Y9S6RPUFDjOT1EoMaNlI=" class="card-img-top" alt="boy">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">James-</h5>
+                    <p class="card-text">"All in one website for the organic products.I completely loved the response of the website.I would just like to say how continually pleased we are with everything about your company. The goods are 1st quality and the service cannot be faulted. Your internet site is easy to use and the delivery is always reliable, with a pleasant and helpful driver."</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card h-100">
+                <img src="https://trailridge.net/wp-content/uploads/2017/12/bigstock-beautiful-senior-female-vegeta-66705622_922_615_84_s.jpg" class="card-img-top" alt="lady">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Amelia-</h5>
+                    <p class="card-text">"Great company.<br>Good communication when needed.<br>Good produce.<br>Helpful and cheerful delivery drivers.<br>Highly recommended."</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card h-100">
+                <img src="https://companionsforseniors.com/wp-content/uploads/2020/09/2020-9-28-Helping-a-Senior-Loved-One-Who-Has-Difficulty-Eating.jpg" class="card-img-top" alt="man">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">William-</h5>
+                    <p class="card-text">"Consistently amazing quality and service. I have been ordering vegetable and fruits boxes every week for years, and I have been very happy with the variety and quality of produce. Extremely reliable service, delivering fresh and in-season produce at the doorstep of my home."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  </section>
+  <section id="contact">
+        <h1 class="headings" style="color: black;">Contact Us</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Name">
+            <input type="email" name="email" class="input" placeholder="Email Address*">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Comment"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<!--------------------------------------------footer------------------------------------------------------------->
+<footer>
+  <div class="footer-basic">
+    <footer>
+        <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-google"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Home</a></li>
+            <li class="list-inline-item"><a href="#about py-5">About</a></li>
+            <li class="list-inline-item"><a href="#refer">References</a></li>
+            <li class="list-inline-item"><a href="#cust">Reviews</a></li>
+            <li class="list-inline-item"><a href="#contact">Contact</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright">Organic Choice © 2022</p>
+    </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</footer>
+    </a>
+  </body>
+</html>

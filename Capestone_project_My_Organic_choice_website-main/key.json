@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "capestone-organic-website",
+  "private_key_id": "d5cc7938348d10ffd1e251040594a103c238a1a0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC7DtCoH/q7Fgeq\nXu1LMIWyMySx46HS4YaLtRClA1F1Yy9ua1ec5uLNg8m5LxN0pFeOir0Qtl4wCPMp\nf4YgWMuScMLwz4wnXArJHMH+aITIgbqIxuZElvTbmrSBJ6QqphmwLN7PGabPAmyq\ncE2BRLrHvdQtXbLKAo2NYpEsv5egU0xN4sL33plBrD0DNdtBhehUgoDHn/FP9bjv\nG5ZF58VEbc8CiyEpmQ1uMTHHcbOnYUmmN0tJEY0JJGZXXsLj+avxMzsOHV07EjKi\n25fHa+9r4zbbrchJcQl+J+NdND2hCAxIE/kjhyIXDuCYE4XT258xz608PhX3E3rv\n0VLrfZ2hAgMBAAECggEAL9L4VtuiO33E5PKTIZOcwvQfcBmeMG+3efWHdWDVTTlY\nEZeBFVzUZK3Kf72A8GPp/MgM0X6Gsyo+nP/9Fz0MgvqwZGfz0cZO/Z8MHBK1zBua\nyMhta+DaZmD1wEWVy8+eprO6HWHWC3v3s1W2AxRC2rl2S0j24n3nmdu2+SVcy0C/\nsZ1zVEcS/Gf0/u4AUqo7fqPM+FA0T+dD1AEJrk1xvW3LT2AmdTjHTmBdR8Hb7Von\nI6uwvP06A4bS82ylVWCC4spl5totNhqGnPYq1N8AyCFT4Y3MyLuR4OceBGBhVWXz\nxsWmVOEk0XcBF+N7wfbnRjON+LtccKi71HYEXGFZrwKBgQD78nmLV+YHSJ7v7MMX\nBY7Z6zY2MWl8vRT/ASPGFWFQKmBNQiRGFCIxedPJ7Tj6ftRMtwd0xxlM0wjGmwY3\nWp5N/oV1vQepwoOoSe0QBcFfULuDyfW94GiHaQwLPa5YDbz1ANDJEcASkINcmSrp\nKJVyi+d9I5bChCs6WRm0PaK0rwKBgQC+ER/ZuCaZuh7Tvz718MVQgiLuO9Zb4cZx\nkPBavuOUYvYoVMe5dSplrkmAwS9+ARPMb2oyH3Q+dUWgBbBsZgMm9K7/bMiavQBL\nLaiYiCMpdHrC4G9kwH9jklMGJGvfycW2ynIB4cPbVRNhHcz8cYqmN8/wKpnRLQU6\nb6b96XgGrwKBgQCnj1GqjKDdgzzBEFOHQhkJcVcyn5YqcY4/MkDagmmf6S728uAx\nAz7ibMWf6/cTEbqb8rYwwiFfaJLTk1KFCe1yra2Q6lDoZAcvq0rQdyNuAsFTGsQm\nrdKXDBQIfdMvmKNsxkgVEYsOTbIvqWZSfr012znvjfW8FC6ztYJUzxEg3QKBgQC6\nnl3DjAh6kECMcA8FtG5Iaj6Z467JcJlEEKeushcKL1C6sOOZuOz0AXiyLvzOn4gt\nBogixreAS+0c/fkHtfIKYd0hdlJRfJm5Nw9/FMxRe8i9Z1h4eHmb7qQON9yjUp4K\nqCPgrSd9R79Lb9NBWspkAhDtIyb8N1QW2GIClSYAiQKBgBXBcVC0PxmEJ+ly3JW2\nafVUxwFQeGCZe5kg3cnEM9H+85vEPl9hIbO1Vbuar0UKAHvLwpMIUwaSR0ctEUEl\nDknqeB0dOXLxA33IlbUgs6qG1ufJPBzl8PAH4VdJRUk74dtOxMaKdB/cpLhCkU7C\ntuYFEYw1nI0viVaH6nmWWv6o\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-9kekm@capestone-organic-website.iam.gserviceaccount.com",
+  "client_id": "106875186984021689004",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-9kekm%40capestone-organic-website.iam.gserviceaccount.com"
+}
